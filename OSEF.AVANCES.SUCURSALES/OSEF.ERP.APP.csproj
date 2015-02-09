@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AEA00FA9-FEBF-42B9-B4C5-46EC2DAD235B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OSEF.ERP.APP</RootNamespace>
+    <AssemblyName>OSEF.ERP.APP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ext.Net, Version=2.5.2.10682, Culture=neutral, PublicKeyToken=2e12ce3d0176cd87, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities">
+      <HintPath>C:\Program Files\Ext.Net 2.5\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files\Ext.Net 2.5\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Transformer.NET">
+      <HintPath>C:\Program Files\Ext.Net 2.5\Transformer.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Articulos.aspx" />
+    <Content Include="assets\css\bootmetro-icons.css" />
+    <Content Include="assets\css\bootmetro-responsive.css" />
+    <Content Include="assets\css\bootmetro-ui-light.css" />
+    <Content Include="assets\css\bootmetro2.css" />
+    <Content Include="assets\css\bootmetro.css" />
+    <Content Include="assets\css\demo2.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\font\icomoon.dev.svg" />
+    <Content Include="assets\font\IcoMoon.svg" />
+    <Content Include="assets\img\categorias.png" />
+    <Content Include="assets\img\conceptos.png" />
+    <Content Include="assets\img\controles\AbrirDisabled.png" />
+    <Content Include="assets\img\controles\AbrirNormal.png" />
+    <Content Include="assets\img\controles\AbrirOver.png" />
+    <Content Include="assets\img\controles\AbrirPressed.png" />
+    <Content Include="assets\img\controles\adjuntoDisabled.png" />
+    <Content Include="assets\img\controles\adjuntoNormal.png" />
+    <Content Include="assets\img\controles\adjuntoOver.png" />
+    <Content Include="assets\img\controles\adjuntoPressed.png" />
+    <Content Include="assets\img\controles\AfectarDisabled.png" />
+    <Content Include="assets\img\controles\AfectarNormal.png" />
+    <Content Include="assets\img\controles\AfectarOver.png" />
+    <Content Include="assets\img\controles\AfectarPressed.png" />
+    <Content Include="assets\img\controles\AnteriorDisabled.png" />
+    <Content Include="assets\img\controles\AnteriorNormal.png" />
+    <Content Include="assets\img\controles\AnteriorOver.png" />
+    <Content Include="assets\img\controles\AnteriorPressed.png" />
+    <Content Include="assets\img\controles\AutorizarDisabled.png" />
+    <Content Include="assets\img\controles\AutorizarNormal.png" />
+    <Content Include="assets\img\controles\AutorizarOver.png" />
+    <Content Include="assets\img\controles\AutorizarPressed.png" />
+    <Content Include="assets\img\controles\back.png" />
+    <Content Include="assets\img\controles\btnRegresar.png" />
+    <Content Include="assets\img\controles\btnRegresarOver.png" />
+    <Content Include="assets\img\controles\btnRegresarPressed.png" />
+    <Content Include="assets\img\controles\Cancelar.png" />
+    <Content Include="assets\img\controles\CancelarDisabled.png" />
+    <Content Include="assets\img\controles\CancelarOver.png" />
+    <Content Include="assets\img\controles\CancelarPressed.png" />
+    <Content Include="assets\img\controles\delete-disable.png" />
+    <Content Include="assets\img\controles\delete-normal.png" />
+    <Content Include="assets\img\controles\delete-over.png" />
+    <Content Include="assets\img\controles\delete-pressed.png" />
+    <Content Include="assets\img\controles\delete.png" />
+    <Content Include="assets\img\controles\edit-disable.png" />
+    <Content Include="assets\img\controles\edit-normal.png" />
+    <Content Include="assets\img\controles\edit-over.png" />
+    <Content Include="assets\img\controles\edit-pressed.png" />
+    <Content Include="assets\img\controles\edit.png" />
+    <Content Include="assets\img\controles\EnviarDisabled.png" />
+    <Content Include="assets\img\controles\EnviarNormal.png" />
+    <Content Include="assets\img\controles\EnviarOver.png" />
+    <Content Include="assets\img\controles\EnviarPressed.png" />
+    <Content Include="assets\img\controles\GaleriaDisabled.png" />
+    <Content Include="assets\img\controles\GaleriaNormal.png" />
+    <Content Include="assets\img\controles\GaleriaOver.png" />
+    <Content Include="assets\img\controles\GaleriaPressed.png" />
+    <Content Include="assets\img\controles\Guardar.png" />
+    <Content Include="assets\img\controles\GuardarDisabled.png" />
+    <Content Include="assets\img\controles\GuardarOver.png" />
+    <Content Include="assets\img\controles\GuardarPressed.png" />
+    <Content Include="assets\img\controles\ImprimirDisabled.png" />
+    <Content Include="assets\img\controles\ImprimirNormal.png" />
+    <Content Include="assets\img\controles\ImprimirOver.png" />
+    <Content Include="assets\img\controles\ImprimirPressed.png" />
+    <Content Include="assets\img\controles\InfoDisabled.png" />
+    <Content Include="assets\img\controles\InfoNormal.png" />
+    <Content Include="assets\img\controles\InfoOver.png" />
+    <Content Include="assets\img\controles\InfoPressed.png" />
+    <Content Include="assets\img\controles\left-nav.png" />
+    <Content Include="assets\img\controles\login-hover.png" />
+    <Content Include="assets\img\controles\login-pressed.png" />
+    <Content Include="assets\img\controles\login.png" />
+    <Content Include="assets\img\controles\new.png" />
+    <Content Include="assets\img\controles\nuevo-disable.png" />
+    <Content Include="assets\img\controles\nuevo-normal.png" />
+    <Content Include="assets\img\controles\nuevo-over.png" />
+    <Content Include="assets\img\controles\nuevo-pressed.png" />
+    <Content Include="assets\img\controles\PrimeroDisabled.png" />
+    <Content Include="assets\img\controles\PrimeroNormal.png" />
+    <Content Include="assets\img\controles\PrimeroOver.png" />
+    <Content Include="assets\img\controles\PrimeroPressed.png" />
+    <Content Include="assets\img\controles\right-nav.png" />
+    <Content Include="assets\img\controles\SaveDisabled.png" />
+    <Content Include="assets\img\controles\SaveNormal.png" />
+    <Content Include="assets\img\controles\SaveOver.png" />
+    <Content Include="assets\img\controles\SavePressed.png" />
+    <Content Include="assets\img\controles\Search.png" />
+    <Content Include="assets\img\controles\SiguienteDisabled.png" />
+    <Content Include="assets\img\controles\SiguienteNormal.png" />
+    <Content Include="assets\img\controles\SiguienteOver.png" />
+    <Content Include="assets\img\controles\SiguientePressed.png" />
+    <Content Include="assets\img\controles\UltimoDisabled.png" />
+    <Content Include="assets\img\controles\UltimoNormal.png" />
+    <Content Include="assets\img\controles\UltimoOver.png" />
+    <Content Include="assets\img\controles\UltimoPressed.png" />
+    <Content Include="assets\img\controles\update-disable.png" />
+    <Content Include="assets\img\controles\update-hover.png" />
+    <Content Include="assets\img\controles\update-normal.png" />
+    <Content Include="assets\img\controles\update-pressed.png" />
+    <Content Include="assets\img\controles\update.png" />
+    <Content Include="assets\img\cp.png" />
+    <Content Include="assets\img\edos.png" />
+    <Content Include="assets\img\groupsMenu.png" />
+    <Content Include="assets\img\menu-ahorros.png" />
+    <Content Include="assets\img\menu-articulo.png" />
+    <Content Include="assets\img\menu-auxiliar.png" />
+    <Content Include="assets\img\menu-balanza.png" />
+    <Content Include="assets\img\menu-certificados.png" />
+    <Content Include="assets\img\menu-colonias.png" />
+    <Content Include="assets\img\menu-conceptos.png" />
+    <Content Include="assets\img\menu-conta.png" />
+    <Content Include="assets\img\menu-corte.png" />
+    <Content Include="assets\img\menu-cuentas.png" />
+    <Content Include="assets\img\menu-inversiones.png" />
+    <Content Include="assets\img\menu-mayor.png" />
+    <Content Include="assets\img\menu-prestamos.png" />
+    <Content Include="assets\img\menu-profesiones.png" />
+    <Content Include="assets\img\menu-saldos.png" />
+    <Content Include="assets\img\menu-socios.png" />
+    <Content Include="assets\img\menu-solicitudes.png" />
+    <Content Include="assets\img\Menus.png" />
+    <Content Include="assets\img\municipio.png" />
+    <Content Include="assets\img\postal.png" />
+    <Content Include="assets\img\provedores.png" />
+    <Content Include="assets\img\revisiones.png" />
+    <Content Include="assets\img\Search.png" />
+    <Content Include="assets\img\subcategorias.png" />
+    <Content Include="assets\img\sucursales.png" />
+    <Content Include="assets\img\usuarios.png" />
+    <Content Include="assets\js\bootmetro-charms.js" />
+    <Content Include="assets\js\bootmetro-panorama.js" />
+    <Content Include="assets\js\bootmetro-pivot.js" />
+    <Content Include="assets\js\bootmetro.js" />
+    <Content Include="assets\js\jquery-1.10.0.js" />
+    <Content Include="assets\js\jquery.mousewheel.min.js" />
+    <Content Include="assets\js\jquery.touchSwipe.min.js" />
+    <Content Include="assets\js\modernizr-2.6.2.min.js" />
+    <Content Include="Avances.aspx" />
+    <Content Include="Categorias.aspx" />
+    <Content Include="CodigosPostales.aspx" />
+    <Content Include="CodigosPostales2.aspx" />
+    <Content Include="Colonias.aspx" />
+    <Content Include="Conceptos.aspx" />
+    <Content Include="Conceptos2.aspx" />
+    <Content Include="css\customControls2.css" />
+    <Content Include="css\customControls.css" />
+    <Content Include="css\login2.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\osef_bancomer.css" />
+    <Content Include="css\osef_cajapopular.css" />
+    <Content Include="css\osef_combobox.css" />
+    <Content Include="css\xButton.css" />
+    <Content Include="css\xComboBox.css" />
+    <Content Include="css\xCustomChart.css" />
+    <Content Include="css\xDatePicker.css" />
+    <Content Include="css\xFieldSet.css" />
+    <Content Include="css\xGridPanel.css" />
+    <Content Include="css\xHiperlink.css" />
+    <Content Include="css\xIcons.css" />
+    <Content Include="css\xLabel.css" />
+    <Content Include="css\xMask.css" />
+    <Content Include="css\xPanel.css" />
+    <Content Include="css\xSplitButton.css" />
+    <Content Include="css\xTabPanel.css" />
+    <Content Include="css\xTextField.css" />
+    <Content Include="css\xToolbar.css" />
+    <Content Include="css\xTreePanel.css" />
+    <Content Include="css\xWindowPopup.css" />
+    <Content Include="CuentasContables.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Default2.aspx" />
+    <Content Include="Estados.aspx" />
+    <Content Include="Estados2.aspx" />
+    <Content Include="Finalidades.aspx" />
+    <Content Include="FormaAccesoMenus.aspx" />
+    <Content Include="FormaAccesoSucursales.aspx" />
+    <Content Include="FormaAnexosSocio.aspx" />
+    <Content Include="FormaAvance.aspx" />
+    <Content Include="FormaCambiarContrasena.aspx" />
+    <Content Include="FormaCargaMultiImagenes.aspx" />
+    <Content Include="FormaColonia.aspx" />
+    <Content Include="FormaConcepto.aspx" />
+    <Content Include="FormaConcepto2.aspx" />
+    <Content Include="FormaAvanzarMovimiento.aspx" />
+    <Content Include="FormaEspecificarFechas.aspx" />
+    <Content Include="FormaGaleria.aspx" />
+    <Content Include="FormaInfoGraficas.aspx" />
+    <Content Include="FormaInversion.aspx" />
+    <Content Include="FormaMenu.aspx" />
+    <Content Include="FormaMenu2.aspx" />
+    <Content Include="FormaCliente.aspx" />
+    <Content Include="FormaSolicitudPrestamo.aspx" />
+    <Content Include="FormaUsuario2.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GruposMenu2.aspx" />
+    <Content Include="images\banco.jpg" />
+    <Content Include="images\cancelar.png" />
+    <Content Include="images\concluido.png" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\linked.png" />
+    <Content Include="images\logo-banco3.png" />
+    <Content Include="images\logo-banco2.png" />
+    <Content Include="images\myApp2.ico" />
+    <Content Include="images\pendiente.png" />
+    <Content Include="images\twiter.png" />
+    <Content Include="images\user-login.png" />
+    <Content Include="images\youtube.png" />
+    <Content Include="js\articulos.js" />
+    <Content Include="js\avance.js" />
+    <Content Include="js\avanzarMovimiento.js" />
+    <Content Include="js\cliente.js" />
+    <Content Include="js\colonias.js" />
+    <Content Include="js\conceptos2.js" />
+    <Content Include="js\cuentasContables.js" />
+    <Content Include="js\finalidades.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\menus2.js" />
+    <Content Include="js\profesiones.js" />
+    <Content Include="js\tableroAvances.js" />
+    <Content Include="js\usuarios2.js" />
+    <Content Include="Login2.aspx" />
+    <Content Include="Menu2.aspx" />
+    <Content Include="Menus2.aspx" />
+    <Content Include="Municipios2.aspx" />
+    <Content Include="OlvidasteContrasena.aspx" />
+    <Content Include="FormaProveedor.aspx" />
+    <Content Include="FormaSucursal.aspx" />
+    <Content Include="FormaUsuario.aspx" />
+    <Content Include="GruposMenu.aspx" />
+    <Content Include="images\btnConfig2.png" />
+    <Content Include="images\btnConfigurar.png" />
+    <Content Include="images\btnLogin_Adv.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\logo-banco.png" />
+    <Content Include="images\myApp.ico" />
+    <Content Include="js\categorias.js" />
+    <Content Include="js\codigosPostales.js" />
+    <Content Include="js\conceptos.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\estados.js" />
+    <Content Include="js\gruposMenu.js" />
+    <Content Include="js\libs\jquery-2.0.3.min.js" />
+    <Content Include="js\menu-usuario.js" />
+    <Content Include="js\menus.js" />
+    <Content Include="js\municipios.js" />
+    <Content Include="js\proveedores.js" />
+    <Content Include="js\subcategorias.js" />
+    <Content Include="js\sucursales.js" />
+    <Content Include="js\usuarios.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Menu.aspx" />
+    <Content Include="Menus.aspx" />
+    <Content Include="Municipios.aspx" />
+    <Content Include="ParaPruebas.aspx" />
+    <Content Include="Plants.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlantService.asmx" />
+    <Content Include="Preciarios.aspx" />
+    <Content Include="Profesiones.aspx" />
+    <Content Include="Proveedores.aspx" />
+    <Content Include="Clientes.aspx" />
+    <Content Include="Subcategorias.aspx" />
+    <Content Include="Sucursales.aspx" />
+    <Content Include="tVtasUnidadesVsTiempo.aspx" />
+    <Content Include="Usuarios.aspx" />
+    <Content Include="Usuarios2.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulos.aspx.cs">
+      <DependentUpon>Articulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articulos.aspx.designer.cs">
+      <DependentUpon>Articulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avances.aspx.cs">
+      <DependentUpon>Avances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avances.aspx.designer.cs">
+      <DependentUpon>Avances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categorias.aspx.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categorias.aspx.designer.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChartData.cs" />
+    <Compile Include="CodigosPostales.aspx.cs">
+      <DependentUpon>CodigosPostales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodigosPostales.aspx.designer.cs">
+      <DependentUpon>CodigosPostales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodigosPostales2.aspx.cs">
+      <DependentUpon>CodigosPostales2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodigosPostales2.aspx.designer.cs">
+      <DependentUpon>CodigosPostales2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Colonias.aspx.cs">
+      <DependentUpon>Colonias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Colonias.aspx.designer.cs">
+      <DependentUpon>Colonias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conceptos.aspx.cs">
+      <DependentUpon>Conceptos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conceptos.aspx.designer.cs">
+      <DependentUpon>Conceptos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conceptos2.aspx.cs">
+      <DependentUpon>Conceptos2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conceptos2.aspx.designer.cs">
+      <DependentUpon>Conceptos2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CuentasContables.aspx.cs">
+      <DependentUpon>CuentasContables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CuentasContables.aspx.designer.cs">
+      <DependentUpon>CuentasContables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default2.aspx.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default2.aspx.designer.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Estados.aspx.cs">
+      <DependentUpon>Estados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estados.aspx.designer.cs">
+      <DependentUpon>Estados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Estados2.aspx.cs">
+      <DependentUpon>Estados2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estados2.aspx.designer.cs">
+      <DependentUpon>Estados2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Finalidades.aspx.cs">
+      <DependentUpon>Finalidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Finalidades.aspx.designer.cs">
+      <DependentUpon>Finalidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAccesoMenus.aspx.cs">
+      <DependentUpon>FormaAccesoMenus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaAccesoMenus.aspx.designer.cs">
+      <DependentUpon>FormaAccesoMenus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAccesoSucursales.aspx.cs">
+      <DependentUpon>FormaAccesoSucursales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaAccesoSucursales.aspx.designer.cs">
+      <DependentUpon>FormaAccesoSucursales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAnexosSocio.aspx.cs">
+      <DependentUpon>FormaAnexosSocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaAnexosSocio.aspx.designer.cs">
+      <DependentUpon>FormaAnexosSocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAvance.aspx.cs">
+      <DependentUpon>FormaAvance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaAvance.aspx.designer.cs">
+      <DependentUpon>FormaAvance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaCambiarContrasena.aspx.cs">
+      <DependentUpon>FormaCambiarContrasena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaCambiarContrasena.aspx.designer.cs">
+      <DependentUpon>FormaCambiarContrasena.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaCargaMultiImagenes.aspx.cs">
+      <DependentUpon>FormaCargaMultiImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaCargaMultiImagenes.aspx.designer.cs">
+      <DependentUpon>FormaCargaMultiImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaColonia.aspx.cs">
+      <DependentUpon>FormaColonia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaColonia.aspx.designer.cs">
+      <DependentUpon>FormaColonia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaConcepto.aspx.cs">
+      <DependentUpon>FormaConcepto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaConcepto.aspx.designer.cs">
+      <DependentUpon>FormaConcepto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaConcepto2.aspx.cs">
+      <DependentUpon>FormaConcepto2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaConcepto2.aspx.designer.cs">
+      <DependentUpon>FormaConcepto2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaAvanzarMovimiento.aspx.cs">
+      <DependentUpon>FormaAvanzarMovimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaAvanzarMovimiento.aspx.designer.cs">
+      <DependentUpon>FormaAvanzarMovimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaEspecificarFechas.aspx.cs">
+      <DependentUpon>FormaEspecificarFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaEspecificarFechas.aspx.designer.cs">
+      <DependentUpon>FormaEspecificarFechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaGaleria.aspx.cs">
+      <DependentUpon>FormaGaleria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaGaleria.aspx.designer.cs">
+      <DependentUpon>FormaGaleria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaInfoGraficas.aspx.cs">
+      <DependentUpon>FormaInfoGraficas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaInfoGraficas.aspx.designer.cs">
+      <DependentUpon>FormaInfoGraficas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaInversion.aspx.cs">
+      <DependentUpon>FormaInversion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaInversion.aspx.designer.cs">
+      <DependentUpon>FormaInversion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaMenu.aspx.cs">
+      <DependentUpon>FormaMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaMenu.aspx.designer.cs">
+      <DependentUpon>FormaMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaMenu2.aspx.cs">
+      <DependentUpon>FormaMenu2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaMenu2.aspx.designer.cs">
+      <DependentUpon>FormaMenu2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaCliente.aspx.cs">
+      <DependentUpon>FormaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaCliente.aspx.designer.cs">
+      <DependentUpon>FormaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaSolicitudPrestamo.aspx.cs">
+      <DependentUpon>FormaSolicitudPrestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaSolicitudPrestamo.aspx.designer.cs">
+      <DependentUpon>FormaSolicitudPrestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaUsuario2.aspx.cs">
+      <DependentUpon>FormaUsuario2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaUsuario2.aspx.designer.cs">
+      <DependentUpon>FormaUsuario2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GruposMenu2.aspx.cs">
+      <DependentUpon>GruposMenu2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GruposMenu2.aspx.designer.cs">
+      <DependentUpon>GruposMenu2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.aspx.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login2.aspx.designer.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu2.aspx.cs">
+      <DependentUpon>Menu2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu2.aspx.designer.cs">
+      <DependentUpon>Menu2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menus2.aspx.cs">
+      <DependentUpon>Menus2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menus2.aspx.designer.cs">
+      <DependentUpon>Menus2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Municipios2.aspx.cs">
+      <DependentUpon>Municipios2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Municipios2.aspx.designer.cs">
+      <DependentUpon>Municipios2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OlvidasteContrasena.aspx.cs">
+      <DependentUpon>OlvidasteContrasena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OlvidasteContrasena.aspx.designer.cs">
+      <DependentUpon>OlvidasteContrasena.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaProveedor.aspx.cs">
+      <DependentUpon>FormaProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaProveedor.aspx.designer.cs">
+      <DependentUpon>FormaProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaSucursal.aspx.cs">
+      <DependentUpon>FormaSucursal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaSucursal.aspx.designer.cs">
+      <DependentUpon>FormaSucursal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormaUsuario.aspx.cs">
+      <DependentUpon>FormaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormaUsuario.aspx.designer.cs">
+      <DependentUpon>FormaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GruposMenu.aspx.cs">
+      <DependentUpon>GruposMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GruposMenu.aspx.designer.cs">
+      <DependentUpon>GruposMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menus.aspx.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menus.aspx.designer.cs">
+      <DependentUpon>Menus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Municipios.aspx.cs">
+      <DependentUpon>Municipios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Municipios.aspx.designer.cs">
+      <DependentUpon>Municipios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParaPruebas.aspx.cs">
+      <DependentUpon>ParaPruebas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParaPruebas.aspx.designer.cs">
+      <DependentUpon>ParaPruebas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plant.cs" />
+    <Compile Include="Plants.ashx.cs">
+      <DependentUpon>Plants.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PlantService.asmx.cs">
+      <DependentUpon>PlantService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Preciarios.aspx.cs">
+      <DependentUpon>Preciarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Preciarios.aspx.designer.cs">
+      <DependentUpon>Preciarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesiones.aspx.cs">
+      <DependentUpon>Profesiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesiones.aspx.designer.cs">
+      <DependentUpon>Profesiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores.aspx.cs">
+      <DependentUpon>Proveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proveedores.aspx.designer.cs">
+      <DependentUpon>Proveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subcategorias.aspx.cs">
+      <DependentUpon>Subcategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subcategorias.aspx.designer.cs">
+      <DependentUpon>Subcategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sucursales.aspx.cs">
+      <DependentUpon>Sucursales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sucursales.aspx.designer.cs">
+      <DependentUpon>Sucursales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tVtasUnidadesVsTiempo.aspx.cs">
+      <DependentUpon>tVtasUnidadesVsTiempo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tVtasUnidadesVsTiempo.aspx.designer.cs">
+      <DependentUpon>tVtasUnidadesVsTiempo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios2.aspx.cs">
+      <DependentUpon>Usuarios2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios2.aspx.designer.cs">
+      <DependentUpon>Usuarios2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\img\menu\" />
+    <Folder Include="images\menu\" />
+    <Folder Include="reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OSEF.APP.BL\OSEF.APP.BL.csproj">
+      <Project>{E5DD4578-3E77-4F15-AD1F-9C4803E26DC0}</Project>
+      <Name>OSEF.APP.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSEF.APP.EL\OSEF.APP.EL.csproj">
+      <Project>{5CEA3018-16E7-4376-A5AD-0783411437DE}</Project>
+      <Name>OSEF.APP.EL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSEF.INTELISIS.BL\OSEF.INTELISIS.BL.csproj">
+      <Project>{A4E0D8DD-BE2E-484B-85A6-B99FDEF5F045}</Project>
+      <Name>OSEF.INTELISIS.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSEF.INTELISIS.EL\OSEF.INTELISIS.EL.csproj">
+      <Project>{205BA1FA-649F-4D98-8E22-E751854F37C7}</Project>
+      <Name>OSEF.INTELISIS.EL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\font\IcoMoon.eot" />
+    <None Include="assets\font\IcoMoon.ttf" />
+    <None Include="assets\font\IcoMoon.woff" />
+    <Content Include="Plants.ashx" />
+    <None Include="fonts\weblysleekuil.ttf" />
+    <None Include="fonts\weblysleekuisl.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7004</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/OSEF.ERP.APP</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

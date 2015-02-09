@@ -1,0 +1,10 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Fuente de las graficas*/
+.xCustomChart .x-surface tspan
+{
+    font-family: "WeblySleek UI" !important;
+}

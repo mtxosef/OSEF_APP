@@ -1,0 +1,99 @@
+﻿/*cmbSexo           --> BaseCls*/
+/*cmbSexo-bodyEl    --> BaseBodyCls*/
+/*                  --> CellCls*/
+/*                  --> ClearCls*/
+/*cmbSexo           --> Cls*/
+/*cmbSexo           --> ComponentCls*/
+/*fcSocio4-innerCt  --> CtCls*/
+/*                  --> DirtyCls*/
+/*cmbSexo           --> DisabledCls*/
+/*cmbSexo-inputEl   --> EmptyCls*/
+/*                  --> ErrorMsgCls*/
+/*cmbSexo-bodyEl    --> FieldBodyCls*/
+/*cmbSexo-inputEl   --> FieldCls*/
+/*cmbSexo-inputEl   --> FocusCls*/
+/*cmbSexo           --> FormItemCls*/
+/*ext-gen1172       --> IconCls*/
+/*ext-gen1169       --> IndicatorCls*/
+/*ext-gen1169       --> IndicatorIconCls*/
+/*                  --> InvalidCls*/
+/*                  --> LabelCls*/
+/*                  --> LabelClsExtra*/
+/*                  --> NoteCls*/
+/*                  --> OpenCls*/
+/*                  --> OverCls*/
+/*                  --> ReadOnlyCls*/
+/*                  --> StyleHtmlCls*/
+/*ext-gen1166       --> TriggerCls*/
+
+/*****************Estilo para Caja Popular******************/
+.cajaComboboxFocus .x-form-trigger-wrap-focus .x-form-trigger-wrap
+{
+    border-color: #721d46;
+}
+
+.cajaCombobox .x-form-field
+{
+    font-family: Century Gothic;
+    font-size: 11pt;
+}
+
+.cajaComboboxLista .x-boundlist-item
+{
+    font-family: Century Gothic;
+    font-size: 10pt;
+}
+
+.cajaComboboxLista .x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent !important;
+    color: white !important;
+    font-family: Century Gothic;
+    font-size: 10pt;
+}
+
+.cajaComboboxLista .x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 10pt;
+}
+
+/*****************Estilo para Bancomer******************/
+.bancomerComboboxFocus .x-form-trigger-wrap-focus .x-form-trigger-wrap
+{
+    border-color: #00386A;
+}
+
+.bancomerCombobox .x-form-field
+{
+    font-family: Verdana;
+    font-size: 11pt;
+}
+
+.bancomerComboboxLista .x-boundlist-item
+{
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+.bancomerComboboxLista .x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent !important;
+    color: white !important;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+.bancomerComboboxLista .x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 10pt;
+}

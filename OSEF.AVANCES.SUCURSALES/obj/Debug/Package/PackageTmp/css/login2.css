@@ -1,0 +1,263 @@
+﻿/*Fuente general del proyecto*/
+@font-face
+{
+    font-family: Century Gothic;
+}
+/*Medidas generales del proyecto*/
+.x-body
+{
+    background-color: #FFF;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*Panel principal contenedor del login*/
+#wrapper
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #FFF !important;
+}
+
+/*Coloca en posición el logo principal*/
+.logo-image {
+margin-left: 50px;
+margin-top: 10px;
+}
+
+/*Div principal para el login*/
+#center-panel-login
+{
+    position: absolute; /*nos posicionamos en el centro del navegador*/
+    top: 63%;
+    left: 52%; /*determinamos una anchura*/
+    width: 290px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left: -200px; /*determinamos una altura*/
+    height: 140px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top: -150px;
+    border: none;
+    padding: 35px;
+    background-color: #dbd6df;
+    border-radius: 1px;
+    z-index: 2;
+}
+
+/*Div para el error del login*/
+#center-panel-error
+{
+    visibility: hidden;
+    position: absolute; /*nos posicionamos en el centro del navegador*/
+    top: 54%;
+    left: 52%; /*determinamos una anchura*/
+    width: 290px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left: -200px; /*determinamos una altura*/
+    height: 0px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top: -140px;
+    border: none;
+    padding: 35px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    background-color: #BA0000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 1px;
+    z-index: 2;
+}
+/*contenedor de controles para el login derecho*/
+#login-right
+{
+    float: left;
+    display: block;
+    margin-bottom: -120px;
+    margin-left: -30px;
+}
+
+/*contenedor de imagen izquierda para el login*/
+#login-left
+{
+    display: block;
+    float: right;
+}
+
+/*Pie de pagina para el login*/
+#footer {
+position: absolute;
+bottom: 0%;
+width: 100%;
+height: 88px;
+text-align: center;
+padding-top: 190px;
+background-color: #721d46;
+z-index: 1;
+}
+
+/*Pie de pagina para el menu principal*/
+#footer-menu {
+position: absolute;
+bottom: 0%;
+width: 100%;
+text-align: center;
+padding-top: 0px;
+background-color: #721d46;
+z-index: 1;
+}
+
+/*Div que organiza redes sociales del menu.aspx*/
+#social ul
+{
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center;
+}
+
+#social li
+{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+/*Acomoda las redessociales del login*/
+#social-login ul
+{
+    margin-bottom: -10px;
+    margin-left:-16px;
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center;
+}
+
+#social-login li
+{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+/*Div interno que alinea OSEF Technology*/
+.creditos
+{
+    margin-top: 25px !important;
+    font-family: Century Gothic !important;
+    font-size: 13px !important;
+    color: #fff !important;
+  /* margin-top: 60px; Comentar esta linea para mostrar redes sociales*/
+}
+
+.creditos-menu {
+font-family: Century Gothic !important;
+    font-size: 13px !important;
+    color: #fff !important;
+/*margin-top: 50px !important; */
+letter-spacing: normal; 
+}
+
+/*Contenedor que se alinea a la derecha para el control de usuario*/
+#user-panel
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 190px;
+    padding: 20px;
+    width: 200px;
+    background-color: transparent;
+    text-align: center;
+}
+
+/*Efecto imagenes*/
+.imgs
+{
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+.imgs:hover
+{
+    filter: alpha(opacity=80);
+    moz-opacity: .80;
+    opacity: .80;
+}
+.imgs:active
+{
+    filter: alpha(opacity=40);
+    moz-opacity: .80;
+    opacity: .40;
+}
+
+/*Control de estilos para botones estilo metro de la aplicación*/
+
+.tile
+{
+    height: 0;
+    width: 65px;
+    float: right;
+    margin: 0 120px 0 0;
+    padding-top: 65px;
+}
+.tile:hover
+{
+    width: 65px;
+    height: 0px;
+    background-color: #808080;
+    transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    -ms-transition: 0.2s all ease;
+}
+
+.tile:active
+{
+    width: 65px;
+    height: 0px;
+    color: #FFF;
+    background-color: #4C4C4C;
+    transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    -ms-transition: 0.2s all ease;
+}
+
+.amarelo
+{
+    background: #5F5C5C;
+}
+
+.vermelho
+{
+    background: #BA0000;
+}
+
+.azul
+{
+    background: #208FD4;
+}
+
+.verde
+{
+    background-color: #016101;
+}
+
+/*Propiedades de cuadro texto/imagen */
+.user-img
+{
+    background-image: url('../assets/img/controles/back.png');
+    background-repeat: no-repeat;
+    font-family: Century Gothic;
+    color: #fff;
+    font-size: 11.5pt;
+    font-weight: normal;
+}

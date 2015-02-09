@@ -1,0 +1,18 @@
+﻿/*Letra de los encabezados de los paneles*/
+.x-customPanelHeader .x-panel-header-text-container-default
+{
+    color: white;
+    font-size: 13px;
+    font-family: "WeblySleek UI Semilight" !important; 
+    line-height: 15px;
+    padding: 1px 0 0;
+    text-transform: none;
+}
+
+/*Texto de toolbar*/
+.x-colorToolbar .x-toolbar-text
+{
+    color: red;
+    font-family: Century Gothic;
+    font-size: 14px;
+}

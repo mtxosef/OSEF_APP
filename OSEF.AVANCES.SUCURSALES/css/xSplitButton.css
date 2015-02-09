@@ -1,0 +1,57 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Propiedades de texto del control contenedor*/
+ .x-btn-default-small .x-btn-inner
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 14px;
+}
+
+/*Propiedades del boton contendedor desplegable*/
+.xBtnCustomDesplegable
+{
+    letter-spacing:0.5px;
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: transparent;
+}
+/*Cambio de color al pasar el mouse encima del control*/
+.xBtnCustomDesplegable:hover
+{
+    background-color: #016101;
+}
+.xBtnCustomDesplegable:active
+{
+    background-color: #7A7A7A;
+}
+
+.xBtnCustomDesplegable .x-btn-default-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+/*Fondo azul Internex Explorer*/
+ .x-nlg .x-btn-default-small {
+    background-image: none;
+    background-position: 0 top;
+}
+
+
+ a:focus {
+    outline: thin dotted transparent;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}

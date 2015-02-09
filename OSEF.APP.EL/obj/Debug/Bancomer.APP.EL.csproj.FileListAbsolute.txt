@@ -1,0 +1,10 @@
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Bancomer.APP.EL\bin\Debug\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Bancomer.APP.EL\bin\Debug\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Bancomer.APP.EL\bin\Debug\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Bancomer.APP.EL\bin\Debug\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Bancomer.APP.EL\obj\Debug\Bancomer.APP.EL.pdb

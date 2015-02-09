@@ -1,0 +1,12 @@
+﻿/*PAra tree panel alineado*/
+.x-toolbar-vertical
+{
+    top: 92px !important;
+    height: 300px !important;
+}
+
+/*Alinear tree al grid*/
+.x-CustomTreePanel .x-toolbar-vertical
+{
+    padding: 6px 0px 0 8px !important;
+}

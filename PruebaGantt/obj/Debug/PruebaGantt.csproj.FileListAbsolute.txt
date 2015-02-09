@@ -1,0 +1,9 @@
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\PruebaGantt\bin\PruebaGantt.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\PruebaGantt\bin\PruebaGantt.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\PruebaGantt\obj\Debug\PruebaGantt.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\PruebaGantt\obj\Debug\PruebaGantt.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\PruebaGantt\bin\PruebaGantt.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\PruebaGantt\bin\PruebaGantt.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\PruebaGantt\obj\Debug\PruebaGantt.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\PruebaGantt\obj\Debug\PruebaGantt.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\PruebaGantt\obj\Debug\PruebaGantt.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿.my-date-picker .x-datepicker-month .x-btn-inner
+{
+    color: #918F8F !important;
+}
+
+/*Redondea el boton del date picker*/
+.x-btn-default-small {
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-ms-border-radius: 0px;
+-o-border-radius: 0px;
+border-radius: 0px !important;
+
+}

@@ -1,0 +1,28 @@
+﻿/*Cambio imagen por engrane al control del renglon del grid*/
+.icon-arrowdown
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfigurar.png) !important;
+}
+/*Cambio imagen por llave al control del renglon del grid*/
+.icon-arrowright
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfig2.png) !important;
+}
+
+
+/*Icono Caps Locks Login*/
+/*Cambio para el icono CAPS LOCK centrado 11/11/2014*/
+.x-field-indicator
+{
+    top: 3px;
+    left: 5px;
+}
+/*Fin cambio icono*/
+
+/*Para el triangulo que usan mayusculas no se mueva de lugar*/
+#lLogin_Password-indicator
+{
+    position: absolute;
+}

@@ -1,0 +1,106 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Combobox*/
+.search-item
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 30px 3px 3px;
+    white-space: normal;
+}
+
+.search-item:hover
+{
+    color: white !important;
+}
+
+.x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+}
+
+.x-boundlist
+{
+    color: black;
+}
+
+.x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent;
+    color: white !important;
+}
+
+/*Combo personalizado forma avance*/
+.search-item h3
+{
+    display: block;
+    font: inherit;
+    font-weight: bold;
+    color: #525050;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.search-item h3 span
+{
+    float: right;
+    font-weight: normal;
+    margin: 0 0 5px 5px;
+    width: 20px;
+    display: block;
+    clear: none;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item
+{
+    padding: 2px 6px;
+    line-height: 18px;
+    border-bottom-color: #B2B2B2;
+    border-bottom-width: .8pt;
+    border-style: solid;
+}
+
+.xEspacioCmbxCustom .search-item
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 11px !important;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+    white-space: normal;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item-over h3
+{
+    color: white !important;
+}
+
+.xEspacioCmbxCustom .x-boundlist-selected h3
+{
+    color: #fff !important;
+}
+
+.xEspacioCmbxCustom .x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+}
+
+.xEspacioCmbxCustom .x-boundlist
+{
+    color: black;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent;
+    color: white !important;
+}

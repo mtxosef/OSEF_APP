@@ -1,0 +1,74 @@
+﻿/*--------------------------------CHRISTIAN MEDINA JUAREZ------------------------------*/
+/*--------------------------------Generales-------------------------------------------*/
+/*Fuente general del proyecto*/
+@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Propiedades de la pagina en general*/
+.x-body
+{
+    background: transparent url(../images/banco.jpg) repeat 0 0 !important;
+    color: #FFF;
+    font-family: "WeblySleek UI Semilight" !important;   
+}
+
+/*Para las paginas que carga el contenedor*/
+.xCustomBody
+{
+    background: transparent !important;
+}
+
+a /*Quita la decoración de los enlaces*/
+{
+    text-decoration: none !important;
+}
+/*--------------------------------Fin Generales-------------------------------------------*/
+
+
+/*Icono usuarios  pero no se donde se usan*/
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    border-width: 0px;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+}
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "WeblySleek UI Semilight" !important; 
+    color: #FFF;
+    padding: 0 5px;
+}
+.total-field
+{
+    background-color: #fff;
+    padding: 0px 1px 1px 1px;
+    margin-right: 1px;
+    position: absolute;
+}
+.total-field .x-form-display-field
+{
+    font-weight: bold !important;
+    border: solid 1px silver;
+    font-size: 12px;
+    color: #000;
+    padding: 0px 0px 0px 5px;
+    height: 22px;
+    margin-top: 0px;
+    padding-top: 3px;
+}

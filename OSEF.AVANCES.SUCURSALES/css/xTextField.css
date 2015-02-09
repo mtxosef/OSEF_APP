@@ -1,0 +1,33 @@
+﻿
+/*Tamaño de la letra de los componentes del formulario*/
+.x-form-item 
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+  
+}
+
+.x-form-field
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+  
+}
+/*Quita la sombra de la caja de texto y les aumenta la fuenta a los txt*/
+.customTxtfield .x-form-field
+{
+    background-image: none;
+     font-family: "WeblySleek UI Semilight" !important; 
+     font-size:14px;
+   
+}
+/*Pone borde al hacer click a la caja de texto*/
+.customTxtfield .x-form-focus
+{
+    border-color: #00386a;
+}
+
+/*Fuente para los controles de un formulario*/
+.x-custom-form-item .x-form-item, .x-form-field
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    
+}

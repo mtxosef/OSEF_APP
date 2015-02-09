@@ -1,0 +1,14 @@
+﻿/*Cambia el color de los hipervinculos de ext*/
+.customHiperlink a
+{
+    color: #83C6FF;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+/*Cambia el color de los hipervinculos de ext cuando esta encima*/
+.customHiperlink a:hover
+{
+    color: #3EA5FF;
+}

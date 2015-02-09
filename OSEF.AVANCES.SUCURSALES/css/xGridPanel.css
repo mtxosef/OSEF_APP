@@ -1,0 +1,200 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*-------------------tableros----------------*/
+
+
+
+.x-grid-custom .x-grid-row-selected .x-grid-cell
+{
+    background: url(row-selected.png) repeat-x scroll 0 0 #7BBBCF;
+    border-color: #728BA1;
+    border-style: solid;
+}
+
+
+
+/*customControls para tablas*/
+
+/*Tipografia tablas*/
+
+/*Encabezados*/
+.x-panel-header-text-container-default {
+font-family: "WeblySleek UI Semilight" !important; 
+font-weight:normal;
+}
+
+
+.x-grid-cell
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 14px;
+}
+
+
+.x-toolbar-footer
+{
+    background: #157fcc;
+    color: #FFFFFF !important;
+}
+
+.x-toolbar-text
+{
+    color: #FFF;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 12px;
+}
+
+/*El over de las tablas */
+.xCustomTable .x-grid-row-selected .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+.xCustomTable .x-grid-row-focused .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+
+.xCustomTable .x-grid-row-over .x-grid-td
+{
+    color: #fff;
+    background-color: #65BFE9;
+}
+
+.x-form-layout-table
+{
+    width: 90% !important;
+}
+
+
+/*Quitar tacha para cerrar de tablero*/
+.xQuitarTachaCerrar .x-tool-img
+{
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background-image: none;
+    margin: 0;
+}
+
+
+.xQuitarFondoTachaCerrar .x-window-header-default .x-tool-img
+{
+    background-color: transparent;
+}
+
+.xQuitarFondoTachaCerrar .x-window-header-default .x-tool-img
+{
+    background-color: transparent;
+}
+
+
+
+.x-grid-group-title
+{
+    color: #666;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-weight: bold;
+}
+
+.x-grid-rowbody
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.x-column-header
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 12px !important;
+    font-weight: bold !important;
+    background-color: #f5f5f5;
+}
+
+.x-column-header-text
+{
+    font-size: 12px;
+}
+
+/*Detalle FormaAvance*/
+
+.x-grid-body .x-grid-cell-Cost
+{
+    background-color: #f1f2f4;
+}
+
+.x-grid-row-summary .x-grid-cell-Cost .x-grid-cell-inner
+{
+    background-color: #BBBCBD;
+}
+
+.task .x-grid-cell-inner
+{
+    padding-left: 15px;
+}
+
+.x-grid-row-summary .x-grid-cell-inner
+{
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #BBBCBD;
+    color: #000;
+}
+
+.x-grid-with-row-lines .x-grid-table-summary
+{
+    border: 0;
+    display: none;
+}
+
+/*Para el icono del estatus en los tableros*/
+.IconColumnaEstatus
+{
+    float: left;
+}
+
+/*Menu Grid Usuarios*/
+/*Propiedades del panel que contiene los items*/
+.x-menu
+{
+    border-style: solid;
+    border-width: 0px;
+    border-color: transparent;
+    font-style: normal !important;
+}
+/*Propiedades del panel que contiene los rows en un grid*/
+.x-panel-body-default
+{
+    background: #fff;
+    font-style: normal !important;
+}
+/*Propiedades del texto del panel que contiene los items de configuracion*/
+.x-menu-item-text
+{
+    font-size: 12px;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-style: normal !important;
+    color: #242424;
+    cursor: pointer;
+    margin-right: 16px;
+}
+/*Sombra del panel de la columna de configuracion engrane usuaarios*/
+.x-css-shadow
+{
+    box-shadow: none !important;
+}
+/*Propiedades del item cuando esta seleccionado engrane usuarios*/
+.x-menu-item-active
+{
+    background-color: #C9C9C9;
+    background-image: none;
+    border-radius: 0;
+    border: none;
+}

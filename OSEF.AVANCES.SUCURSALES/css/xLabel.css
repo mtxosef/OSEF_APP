@@ -1,0 +1,33 @@
+﻿
+@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Label de los controles del formulario*/
+
+.x-form-item-label
+{
+    color: #000;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 13px;
+    
+}
+
+/*Label RaddioButton*/
+.x-form-cb-label
+{
+    
+    font-family: "WeblySleek UI" !important;
+    font-size: 12px;
+   
+}
+
+/*Label de bienvenido*/
+.xCustomEncabezadoLogin .x-form-item-label
+{
+    color: #D0EAFF !important;
+    font-size: 23px !important;
+  
+}
+

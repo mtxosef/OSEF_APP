@@ -1,0 +1,72 @@
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Bancomer.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Bancomer.APP.DL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Library.Common.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\bin\Debug\Library.Common.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\obj\Debug\Bancomer.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\Bancomer.APP.DL\obj\Debug\Bancomer.APP.DL.pdb
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\OSEF_PROJECT\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\Administrador\Dropbox\OSEF\Xpertex\OSEF_PROJECT2\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Desktop\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\03 - OSEF\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_PROJECT_ERP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.APP.DL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.APP.EL.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\bin\Debug\OSEF.LIBRARY.COMMON.pdb
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.csprojResolveAssemblyReference.cache
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.dll
+C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\OSEF_ERP_APP\OSEF.APP.DL\obj\Debug\OSEF.APP.DL.pdb

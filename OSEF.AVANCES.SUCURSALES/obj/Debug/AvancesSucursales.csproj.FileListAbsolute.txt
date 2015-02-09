@@ -1,0 +1,32 @@
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\AvancesSucursales.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\AvancesSucursales.pdb
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\Transformer.NET.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\Newtonsoft.Json.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\Ext.Net.Utilities.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\obj\Debug\AvancesSucursales.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\obj\Debug\AvancesSucursales.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\obj\Debug\AvancesSucursales.pdb
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\AvancesSucursales\bin\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Bancomer.APP.BL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Bancomer.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Library.Common.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Bancomer.APP.BL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Bancomer.APP.DL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer\AvancesSucursales\bin\Library.Common.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\AvancesSucursales.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\AvancesSucursales.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.BL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.EL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.DL.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Transformer.NET.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Newtonsoft.Json.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Ext.Net.Utilities.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Library.Common.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.BL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.EL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Bancomer.APP.DL.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\bin\Library.Common.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\obj\Debug\AvancesSucursales.csprojResolveAssemblyReference.cache
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\obj\Debug\AvancesSucursales.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\AvancesSucursales\obj\Debug\AvancesSucursales.pdb

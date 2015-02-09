@@ -1,0 +1,921 @@
+﻿/*--------------------------------CHRISTIAN MEDINA JUAREZ------------------------------*/
+/*--------------------------------propiedas customizadas para controles EXT.NET---------*/
+/*Fuente general del proyecto*/
+@font-face
+{
+    font-family: Century Gothic;
+}
+.x-body
+{
+    background-color: #721d46 !important;
+    color: #FFF;
+    font-family: Century Gothic;
+}
+/*Aumenta el tamaño a 300px que pertenescan a la clase form_fields*/
+#form_Fields
+{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/*Personaliza las etiquetas*/
+#form_Label
+{
+    font-size: 14px;
+    color: #000;
+}
+
+.x-form-item, .x-form-field
+{
+    font-family: Century Gothic;
+    font-size: 11pt;
+}
+
+/*Quita la sombra de la caja de texto*/
+.customTxtfield .x-form-field
+{
+    background-image: none;
+}
+/*Pone borde al hacer click a la caja de texto*/
+.x-form-focus
+{
+    border-color: #721d46 !important;
+}
+
+
+.x-form-trigger-wrap-focus .x-form-trigger-wrap
+{
+    border-color: #721d46;
+}
+
+
+/*Modifica todos los hipervinculos, les da transicion animada y los pone en cursiva*/
+a
+{
+    color: #8f7449 !important;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+    -webkit-transition-property: color, text;
+    -webkit-transition-duration: 1s, 1s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-property: color, text;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: linear, ease-in;
+    -o-transition-property: color, text;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: linear, ease-in;
+}
+/*Color de cambio en la transición de los enlaces a:hipervinculos*/
+a:hover
+{
+    color: #721d46;
+}
+
+
+/*Menu usuario Split button item*/
+
+/*Propiedades del boton contendedor desplegable*/
+.xBtnCustomDesplegable
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: transparent;
+}
+/*Cambio de color al pasar el mouse encima del control*/
+.xBtnCustomDesplegable:hover
+{
+    background-color: #016101;
+}
+.xBtnCustomDesplegable:active
+{
+    background-color: #7A7A7A;
+}
+
+
+/*Propiedades de texto del control contenedor*/
+.x-btn-default-small .x-btn-inner
+{
+    font-family: Century Gothic;
+    font-size: 13px;
+    font-style: normal;
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+
+.my-date-picker .x-datepicker-month .x-btn-inner
+{
+    color: #918F8F !important;
+}
+
+
+
+.x-btn-default-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+/*Hasta aqui*/
+
+
+a /*Quita la decoración de los enlaces*/
+{
+    text-decoration: none !important;
+}
+
+/*Propiedades del panel que contiene los items*/
+.x-menu
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    font-style: normal !important;
+}
+/*Propiedades del panel que contiene los items*/
+.x-panel-body-default
+{
+    background: #fff;
+    font-style: normal !important;
+    border-color: Silver;
+    color: black;
+    font-size: 13px;
+    font-size: normal;
+    border-width: 1px;
+    border-style: solid;
+}
+/*Propiedades del texto del panel que contiene los items*/
+.x-menu-item-text
+{
+    font-size: 12px;
+    font-family: Century Gothic;
+    font-style: normal !important;
+    color: #242424;
+    cursor: pointer;
+    margin-right: 16px;
+}
+/*Sombra del panel*/
+.x-css-shadow
+{
+    box-shadow: none !important;
+}
+/*Propiedades del item cuando esta seleccionado*/
+.x-menu-item-active
+{
+    background-color: #C9C9C9;
+    background-image: none;
+    border-radius: 0;
+    border: none;
+}
+
+/**
+ *  ==== Windows 8 Buttons Style ====
+ */
+/** Transicion */
+.w8-icon
+{
+    transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    -ms-transition: 0.2s all ease;
+}
+
+/** Button */
+.btnlogin .x-btn-button
+{
+    position: relative;
+    display: block;
+    margin-top: 7px; /*Altura del texto*/
+}
+/*Propiedades del texto del boton*/
+.customLblButton .x-btn-inner
+{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+}
+/*Se se desea poner un icono al boton*/
+.w8-icon
+{
+    display: table;
+    padding: 7px 7px 7px 7px;
+    background: no-repeat center; /*Si se desea poner un icono poner la url de la imgane y poner righ o left*/
+    border-color: transparent;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 48px;
+    height: 48px;
+}
+/*Efecto al pasar el mouse*/
+.w8-icon:hover
+{
+    opacity: .8;
+}
+/*Efecto al hacer clic*/
+.w8-icon:active
+{
+    opacity: 1;
+}
+/*Efecto al hacer clic: cambia icono poner url y alinearlo*/
+.w8-button.iconize
+{
+    padding-right: 50px !important;
+    background: no-repeat 115px right;
+}
+/*Aqui se cambia el color del boton*/
+.w8-icon.green
+{
+    background-color: #721d46;
+}
+
+
+/*Cambiar la forma y visibilidad del loader ---- Panels*/
+
+/*Quita la opacidad*/
+.x-mask
+{
+    filter: alpha(opacity=70);
+    opacity: .7;
+    background-color: transparent;
+    width: 1280px !important;
+    height: 450px !important;
+    margin-left: 300px !important;
+}
+
+/*Subir el loader*/
+.x-mask-msg
+{
+    top: 184px !important;
+}
+/*Acomodar el texto*/
+.x-mask-msg-inner
+{
+    color: Black;
+    font-family: Century Gothic;
+    font-size: 13pt;
+}
+
+
+/*Quitar el redondeo y fondo del mensaje*/
+.x-mask-msg
+{
+    padding: 8px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-image: none;
+    background-color: #e5e5e5;
+}
+
+
+/*-------------------tableros----------------*/
+.x-column-header-text
+{
+    font-size: 11px;
+}
+
+.x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+}
+/*
+.x-boundlist-item-over {
+background: #00386a;
+border-color: #00386a;
+color: #fff;
+}
+*/
+
+.x-boundlist
+{
+    color: black;
+}
+.x-grid-custom .x-grid-row-selected .x-grid-cell
+{
+    background: url(row-selected.png) repeat-x scroll 0 0 #7BBBCF;
+    border-color: #728BA1;
+    border-style: solid;
+}
+
+/*Cambio para el icono CAPS LOCK centrado 11/11/2014*/
+.x-field-indicator
+{
+    top: 3px;
+    left: 5px;
+}
+/*Fin cambio icono*/
+
+/*customControls para tablas*/
+
+/*Tipografia tablas*/
+.x-grid-cell
+{
+    font-family: Century Gothic;
+    font-size: normal 13px;
+}
+
+
+.x-toolbar-footer
+{
+    background: #8f7449;
+    color: #FFFFFF !important;
+}
+
+.x-toolbar-text
+{
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+
+/*El over de las tablas*/
+.x-grid-row-selected .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+.x-grid-row-focused .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+
+.x-grid-row-over .x-grid-td
+{
+    color: #fff;
+    background-color: #65BFE9;
+}
+
+.x-form-layout-table
+{
+    width: 90% !important;
+}
+
+.x-form-item-label
+{
+    color: #000;
+    font-family: Century Gothic;
+    font-size: 12.5px;
+}
+
+.x-form-cb-label
+{
+    color: #000;
+    font-family: Century Gothic;
+    font-size: 12.5px;
+}
+
+
+/*Popups*/
+
+/*Windows*/
+.x-window-default
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px !important;
+}
+
+
+.x-window-header-text-container-default
+{
+    color: white;
+    font-family: Century Gothic;
+    font-size: 12.5px;
+}
+
+.x-form-display-field
+{
+    font-family: Century Gothic;
+    font-size: 13px;
+}
+
+.deletePop
+{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+/*PAra tree panel alineado*/
+.x-toolbar-vertical
+{
+    top: 92px !important;
+    height: 300px !important;
+}
+
+/*Icono usuarios*/
+
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    border-width: 0px;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+}
+
+.icon-arrowdown
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfigurar.png) !important;
+}
+
+.icon-arrowright
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfig2.png) !important;
+}
+
+.x-docked
+{
+    z-index: 0;
+}
+
+
+a
+{
+    color: #020789;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    -webkit-transition-property: color, text;
+    -webkit-transition-duration: 1s, 1s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-property: color, text;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: linear, ease-in;
+    -o-transition-property: color, text;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: linear, ease-in;
+}
+
+.xchris .x-tab-default .x-tab-inner
+{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: Century Gothic;
+    color: white;
+    line-height: 16px;
+}
+
+
+.custotabpanel .x-tab-default-top
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.x-tab-default-top
+{
+    background-color: #721d46;
+}
+
+.x-tab-default-over
+{
+    background-color: #5B1738;
+}
+.x-tab-default-active
+{
+    background-color: #A95D82;
+}
+
+.x-tab-bar-plain
+{
+    border-width: 0;
+    padding: 0;
+    height: 36px;
+}
+
+.x-tab-bar-body-default-top
+{
+    padding-bottom: 1px;
+}
+
+
+
+
+
+/*Texto de toolbar*/
+.x-colorToolbar .x-toolbar-text
+{
+    color: red;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+
+
+/*Alinear tree al grid*/
+.x-CustomTreePanel .x-toolbar-vertical
+{
+    padding: 6px 0px 0 8px !important;
+}
+
+/*Tipo Letra Contqainer*/
+.x-fieldset-header-text
+{
+    font-family: Century Gothic;
+    font-size: 12px;
+    color: black;
+    padding: 1px 0;
+}
+
+
+
+
+/*Boton de enviar*/
+.cbtn
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #016101;
+}
+
+.cbtn:hover
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: Gray;
+}
+
+
+.cbtn:active
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #5A5555;
+}
+
+
+
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Century Gothic;
+    color: #FFF;
+    padding: 0 5px;
+}
+
+.x-customPanelHeader .x-panel-header-text-container-default
+{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Century Gothic !important;
+    line-height: 15px;
+    padding: 1px 0 0;
+    text-transform: none;
+}
+
+.x-custom-form-item .x-form-item, .x-form-field
+{
+    font-family: Century Gothic !important;
+}
+
+
+.x-btnCustomDefault .x-btn-default-small
+{
+    border: none;
+    
+    border-radius: 0px !important;
+    border-color: transparent;
+    background-image: none !important;
+    background-color: #EBE9E9 !important;
+}
+
+.x-btnCustomDefaultOver .x-btn-default-small-over
+{
+    background-image: none !important;
+    background-color: #CCCCCC !important;
+}
+
+
+
+/*A partir de aqui Imagenes*/
+
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 12px;
+    font-family: Century Gothic !important;
+    color: #666 !important;
+}
+
+.x-btn-default-toolbar-small-icon-text-left .x-btn-inner
+{
+    line-height: 16px;
+    padding-left: 21px;
+}
+
+
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #f5f5f5;
+}
+
+
+.x-btn-default-toolbar-small-over
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #BDBBBB;
+}
+
+
+
+.x-grid-group-title
+{
+    color: #666;
+    font-family: Century Gothic !important;
+    font-weight: bold;
+}
+
+.x-grid-rowbody
+{
+    font-family: Century Gothic !important;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.x-column-header
+{
+    font-family: Century Gothic !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.x-column-header-text
+{
+    font-size: 12px;
+}
+
+
+/*Detalle*/
+
+.x-grid-body .x-grid-cell-Cost
+{
+    background-color: #f1f2f4;
+}
+
+.x-grid-row-summary .x-grid-cell-Cost .x-grid-cell-inner
+{
+    background-color: #BBBCBD;
+}
+
+.task .x-grid-cell-inner
+{
+    padding-left: 15px;
+}
+
+.x-grid-row-summary .x-grid-cell-inner
+{
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #BBBCBD;
+    color: #000;
+}
+
+.total-field
+{
+    background-color: #fff;
+    padding: 0px 1px 1px 1px;
+    margin-right: 1px;
+    position: absolute;
+}
+
+.total-field .x-form-display-field
+{
+    font-weight: bold !important;
+    border: solid 1px silver;
+    font-size: 12px;
+    color: #000;
+    padding: 0px 0px 0px 5px;
+    height: 22px;
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+.x-grid-with-row-lines .x-grid-table-summary
+{
+    border: 0;
+    display: none;
+}
+
+
+
+/*Combobox*/
+
+.search-item
+{
+    font-family: Century Gothic !important;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 30px 3px 3px;
+    white-space: normal;
+    color: #707070;
+}
+
+.search-item:hover
+{
+    color: white;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item
+{
+    padding: 0 6px;
+    line-height: 12px;
+}
+
+.x-boundlist-item:hover
+{
+    background-color: #9F9F9F !important;
+    border-color: transparent;
+}
+
+.search-item h3
+{
+    display: block;
+    font: inherit;
+    font-weight: bold;
+    color: #525050;
+    margin: 0px;
+    font-size: 13px;
+}
+
+
+.search-item h3 span
+{
+    float: right;
+    font-weight: normal;
+    margin: 0 0 5px 5px;
+    width: 20px;
+    display: block;
+    clear: none;
+}
+
+
+
+/*Header tableros*/
+.x-panel-header-default
+{
+    background-image: none;
+    background-color: #8f7449;
+}
+
+.x-toolbar-footer
+{
+    background: #8f7449;
+    color: #FFFFFF !important;
+}
+
+.x-window-default
+{
+    border-color: #8f7449;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.x-window-header-default
+{
+    font-size: 13px;
+    border-color: #8f7449;
+    zoom: 1;
+    background-color: #8f7449;
+}
+
+/*Quitar tacha para cerrar de tablero*/
+.xQuitarTachaCerrar .x-tool-img
+{
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background-image: none;
+    margin: 0;
+}
+
+
+.xQuitarFondoTachaCerrar .x-window-header-default .x-tool-img
+{
+    background-color: transparent;
+}
+
+/*Nuevas modificaciones*/
+.x-window-header-default .x-tool-img
+{
+    background-color: transparent;
+}
+
+.x-btn-default-small
+{
+  /*  border-color: #808080; */
+}
+
+
+
+.x-tab-bar-strip-default
+{
+    border-style: solid;
+    border-color: #721d46;
+    background-color: #721d46;
+}
+
+
+.xCustomToolbar .x-toolbar-text {
+color: red; 
+font-family: Century Gothic; 
+font-size: 14px;
+}
+
+.x-nlg .x-btn-default-small {
+    background-image: none!important;
+    border:none !important;
+    background-position: 0 top;
+}
+
+a:focus {
+    outline: thin dotted transparent;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.xLabelCustomizado  {
+ font-family: Century Gothic; 
+font-size: 10pt; 
+}

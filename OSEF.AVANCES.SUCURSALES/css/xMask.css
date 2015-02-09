@@ -1,0 +1,29 @@
+﻿/*Cambiar la forma y visibilidad del loader ---- Panels*/
+/*Quita la opacidad*/
+.x-mask
+{
+    filter: alpha(opacity=70);
+    opacity: .7;
+    background-color: transparent;
+}
+
+/*Acomodar el texto*/
+.x-mask-msg-inner
+{
+    color: Black;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 13pt;
+}
+
+/*Quitar el redondeo y fondo del mensaje*/
+.x-mask-msg
+{
+    padding: 8px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-image: none;
+    background-color: #e5e5e5;
+}

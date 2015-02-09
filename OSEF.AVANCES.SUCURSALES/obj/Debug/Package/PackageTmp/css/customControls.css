@@ -1,0 +1,854 @@
+﻿/*--------------------------------CHRISTIAN MEDINA JUAREZ------------------------------*/
+/*--------------------------------propiedas customizadas para controles EXT.NET---------*/
+/*Fuente general del proyecto*/
+@font-face
+{
+    font-family: "WeblySleek UI";
+    src: url("../fonts/weblysleekuil.ttf");
+}
+/*Propiedades de la pagina en general*/
+.x-body
+{
+    background: transparent url(../images/banco.jpg) repeat 0 0 !important;
+    color: #FFF;
+    font-family: "WeblySleek UI" !important;
+    
+}
+
+/*Para las paginas que carga el contenedor*/
+.xCustomBody
+{
+    background: transparent !important;
+}
+
+
+/*Aumenta el tamaño a 300px que pertenescan a la clase form_fields*/
+#form_Fields
+{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/*Personaliza las etiquetas*/
+#form_Label
+{
+    font-size: 14px;
+    color: #000;
+}
+
+.x-form-item, .x-form-field
+{
+    font-family: 'Segoe UI' !important;
+    font-size: 11pt;
+}
+
+/*Quita la sombra de la caja de texto*/
+.customTxtfield .x-form-field
+{
+    background-image: none;
+}
+/*Pone borde al hacer click a la caja de texto*/
+.customFocus .x-form-focus
+{
+    border-color: #00386a;
+}
+
+
+
+
+/*Menu usuario Split button item*/
+
+/*Propiedades del boton contendedor desplegable*/
+.xBtnCustomDesplegable
+{
+    letter-spacing:0.5px;
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: transparent;
+}
+/*Cambio de color al pasar el mouse encima del control*/
+.xBtnCustomDesplegable:hover
+{
+    background-color: #016101;
+}
+.xBtnCustomDesplegable:active
+{
+    background-color: #7A7A7A;
+}
+
+
+/*Propiedades de texto del control contenedor*/
+.x-btn-default-small .x-btn-inner
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 13px;
+    font-style: normal;
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+
+.my-date-picker .x-datepicker-month .x-btn-inner
+{
+    color: #918F8F !important;
+}
+
+
+
+.x-btn-default-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+/*Hasta aqui*/
+
+
+a /*Quita la decoración de los enlaces*/
+{
+    text-decoration: none !important;
+}
+
+/*Propiedades del panel que contiene los items*/
+.x-menu
+{
+    border-style: solid;
+    border-width: 0px;
+    border-color: transparent;
+    font-style: normal !important;
+}
+/*Propiedades del panel que contiene los items*/
+.x-panel-body-default
+{
+    background: #fff;
+    font-style: normal !important;
+}
+/*Propiedades del texto del panel que contiene los items*/
+.x-menu-item-text
+{
+    font-size: 12px;
+    font-family: "WeblySleek UI" !important;
+    font-style: normal !important;
+    color: #242424;
+    cursor: pointer;
+    margin-right: 16px;
+}
+/*Sombra del panel*/
+.x-css-shadow
+{
+    box-shadow: none !important;
+}
+/*Propiedades del item cuando esta seleccionado*/
+.x-menu-item-active
+{
+    background-color: #C9C9C9;
+    background-image: none;
+    border-radius: 0;
+    border: none;
+}
+
+/**
+ *  ==== Windows 8 Buttons Style ====
+ */
+/** Transicion */
+.w8-icon
+{
+    transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    -ms-transition: 0.2s all ease;
+}
+
+/** Button */
+.btnlogin .x-btn-button
+{
+    position: relative;
+    display: block;
+    margin-top: 7px; /*Altura del texto*/
+}
+/*Propiedades del texto del boton*/
+.customLblButton .x-btn-inner
+{
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+}
+/*Se se desea poner un icono al boton*/
+.w8-icon
+{
+    display: table;
+    padding: 7px 7px 7px 7px;
+    background: no-repeat center; /*Si se desea poner un icono poner la url de la imgane y poner righ o left*/
+    border-color: transparent;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 48px;
+    height: 48px;
+}
+/*Efecto al pasar el mouse*/
+.w8-icon:hover
+{
+    opacity: 2;
+}
+/*Efecto al hacer clic*/
+.w8-icon:active
+{
+    background-color: #898989 !important;
+}
+/*Efecto al hacer clic: cambia icono poner url y alinearlo*/
+.w8-button.iconize
+{
+    padding-right: 50px !important;
+    background: no-repeat 115px right;
+}
+/*Aqui se cambia el color del boton*/
+.w8-icon.green
+{
+    background-color: #016101;
+}
+
+
+/*Cambiar la forma y visibilidad del loader ---- Panels*/
+
+/*Quita la opacidad*/
+.x-mask
+{
+    filter: alpha(opacity=70);
+    opacity: .7;
+    background-color: transparent;
+    width: 1280px !important;
+    height: 450px !important;
+    margin-left: 300px !important;
+}
+
+/*Subir el loader*/
+.x-mask-msg
+{
+    top: 184px !important;
+}
+/*Acomodar el texto*/
+.x-mask-msg-inner
+{
+    color: Black;
+    font-family: "WeblySleek UI" !important;
+    font-size: 13pt;
+}
+
+
+/*Quitar el redondeo y fondo del mensaje*/
+.x-mask-msg
+{
+    padding: 8px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-image: none;
+    background-color: #e5e5e5;
+}
+
+
+/*-------------------tableros----------------*/
+.x-column-header-text
+{
+    font-size: 11px;
+}
+
+
+.x-grid-custom .x-grid-row-selected .x-grid-cell
+{
+    background: url(row-selected.png) repeat-x scroll 0 0 #7BBBCF;
+    border-color: #728BA1;
+    border-style: solid;
+}
+
+/*Cambio para el icono CAPS LOCK centrado 11/11/2014*/
+.x-field-indicator
+{
+    top: 3px;
+    left: 5px;
+}
+/*Fin cambio icono*/
+
+/*customControls para tablas*/
+
+/*Tipografia tablas*/
+
+/*Encabezados*/
+.x-panel-header-text-container-default {
+font-family: "WeblySleek UI" !important;
+letter-spacing:1px;
+}
+
+
+.x-grid-cell
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: normal 13px;
+}
+
+
+.x-toolbar-footer
+{
+    background: #157fcc;
+    color: #FFFFFF !important;
+}
+
+.x-toolbar-text
+{
+    color: #FFF;
+    font-family: "WeblySleek UI" !important;
+    font-size: 12px;
+}
+
+/*El over de las tablas */
+.xCustomTable .x-grid-row-selected .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+.xCustomTable .x-grid-row-focused .x-grid-td
+{
+    background-color: #157fcc;
+    color: #fff;
+}
+
+.xCustomTable .x-grid-row-over .x-grid-td
+{
+    color: #fff;
+    background-color: #65BFE9;
+}
+
+.x-form-layout-table
+{
+    width: 90% !important;
+}
+
+.x-form-item-label
+{
+    color: #000;
+    font-family: "WeblySleek UI" !important;
+    font-size: 12.5px;
+}
+
+.x-form-cb-label
+{
+    color: #000;
+    font-family: "WeblySleek UI" !important;
+    font-size: 12.5px;
+}
+
+
+/*Popups*/
+
+/*Windows*/
+.x-window-default
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px !important;
+}
+
+
+.x-window-header-text-container-default
+{
+    color: white;
+    font-family: "WeblySleek UI" !important;
+    font-size: 12.5px;
+}
+
+.x-form-display-field
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 13px;
+}
+
+.deletePop
+{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+/*PAra tree panel alineado*/
+.x-toolbar-vertical
+{
+    top: 92px !important;
+    height: 300px !important;
+}
+
+/*Icono usuarios*/
+
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    border-width: 0px;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+}
+
+.icon-arrowdown
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfigurar.png) !important;
+}
+
+.icon-arrowright
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/btnConfig2.png) !important;
+}
+
+.x-docked
+{
+    z-index: 0;
+}
+
+
+a
+{
+    color: #020789;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    -webkit-transition-property: color, text;
+    -webkit-transition-duration: 1s, 1s;
+    -webkit-transition-timing-function: linear, ease-in;
+    -moz-transition-property: color, text;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: linear, ease-in;
+    -o-transition-property: color, text;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: linear, ease-in;
+}
+
+.xchris .x-tab-default .x-tab-inner
+{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: "WeblySleek UI" !important;
+    color: white;
+    line-height: 16px;
+}
+
+
+.custotabpanel .x-tab-default-top
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*Texto de toolbar*/
+.x-colorToolbar .x-toolbar-text
+{
+    color: red;
+    font-family: "WeblySleek UI" !important;
+    font-size: 14px;
+}
+
+
+/*Alinear tree al grid*/
+.x-CustomTreePanel .x-toolbar-vertical
+{
+    padding: 6px 0px 0 8px !important;
+}
+
+/*Tipo Letra Contqainer*/
+.x-fieldset-header-text
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 12px;
+    color: black;
+    padding: 1px 0;
+}
+
+
+
+
+/*Boton de enviar*/
+.cbtn
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #016101;
+}
+
+.cbtn:hover
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: Gray;
+}
+
+
+.cbtn:active
+{
+    width: 190px;
+    border-radius: 0px;
+    border: transparent;
+    padding: 9px 9px 9px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #5A5555;
+}
+
+
+
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "WeblySleek UI" !important;
+    color: #FFF;
+    padding: 0 5px;
+}
+
+.x-customPanelHeader .x-panel-header-text-container-default
+{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "WeblySleek UI" !important;
+    line-height: 15px;
+    padding: 1px 0 0;
+    text-transform: none;
+}
+
+.x-custom-form-item .x-form-item, .x-form-field
+{
+    font-family: "WeblySleek UI" !important;
+}
+
+
+.x-btnCustomDefault .x-btn-default-small
+{
+    border: none;
+    border-radius: 0px !important;
+    border-color: transparent;
+    background-image: none !important;
+    background-color: #EBE9E9 !important;
+}
+
+.x-btnCustomDefaultOver .x-btn-default-small-over
+{
+    background-image: none !important;
+    background-color: #CCCCCC !important;
+}
+
+
+
+
+/*A partir de aqui Imagenes-Avance*/
+
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 12px;
+    font-family: "WeblySleek UI" !important;
+    color: #666 !important;
+}
+
+.x-btn-default-toolbar-small-icon-text-left .x-btn-inner
+{
+    line-height: 16px;
+    padding-left: 21px;
+}
+
+
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #f5f5f5;
+}
+
+
+.x-btn-default-toolbar-small-over
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #BDBBBB;
+}
+
+
+
+.x-grid-group-title
+{
+    color: #666;
+    font-family: "WeblySleek UI" !important;
+    font-weight: bold;
+}
+
+.x-grid-rowbody
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.x-column-header
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.x-column-header-text
+{
+    font-size: 12px;
+}
+
+/*Detalle FormaAvance*/
+
+.x-grid-body .x-grid-cell-Cost
+{
+    background-color: #f1f2f4;
+}
+
+.x-grid-row-summary .x-grid-cell-Cost .x-grid-cell-inner
+{
+    background-color: #BBBCBD;
+}
+
+.task .x-grid-cell-inner
+{
+    padding-left: 15px;
+}
+
+.x-grid-row-summary .x-grid-cell-inner
+{
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #BBBCBD;
+    color: #000;
+}
+
+.total-field
+{
+    background-color: #fff;
+    padding: 0px 1px 1px 1px;
+    margin-right: 1px;
+    position: absolute;
+}
+
+.total-field .x-form-display-field
+{
+    font-weight: bold !important;
+    border: solid 1px silver;
+    font-size: 12px;
+    color: #000;
+    padding: 0px 0px 0px 5px;
+    height: 22px;
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+.x-grid-with-row-lines .x-grid-table-summary
+{
+    border: 0;
+    display: none;
+}
+
+
+/*Combobox*/
+.search-item
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 30px 3px 3px;
+    white-space: normal;
+}
+
+.search-item:hover
+{
+    color: white !important;
+}
+
+.x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+}
+
+.x-boundlist
+{
+    color: black;
+}
+
+.x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent;
+    color: white !important;
+}
+
+/*Combo personalizado forma avance*/
+.search-item h3
+{
+    display: block;
+    font: inherit;
+    font-weight: bold;
+    color: #525050;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.search-item h3 span
+{
+    float: right;
+    font-weight: normal;
+    margin: 0 0 5px 5px;
+    width: 20px;
+    display: block;
+    clear: none;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item
+{
+    padding: 2px 6px;
+    line-height: 18px;
+    border-bottom-color: #B2B2B2;
+    border-bottom-width: .8pt;
+    border-style: solid;
+}
+
+.xEspacioCmbxCustom .search-item
+{
+    font-family: "WeblySleek UI" !important;
+    font-size: 11px !important;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+    white-space: normal;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item-over h3
+{
+    color: white !important;
+}
+
+.xEspacioCmbxCustom .x-boundlist-selected h3
+{
+    color: #fff !important;
+}
+
+.xEspacioCmbxCustom .x-boundlist-selected
+{
+    background: #00386a;
+    border-color: #00386a;
+    color: #fff;
+}
+
+.xEspacioCmbxCustom .x-boundlist
+{
+    color: black;
+}
+
+.xEspacioCmbxCustom .x-boundlist-item-over
+{
+    background: #9F9F9F !important;
+    border-color: transparent;
+    color: white !important;
+}
+/*Fuente de las graficas*/
+.xCustomChart .x-surface tspan
+{
+    font-family: "WeblySleek UI" !important;
+}
+/*Para el icono del estatus en los tableros*/
+.IconColumnaEstatus
+{
+    float: left;
+}
+
+
+/*Para el triangulo que usan mayusculas no se mueva de lugar*/
+#lLogin_Password-indicator
+{
+    position: absolute;
+}
+
+/*Cambia el color de los hipervinculos de ext*/
+.customHiperlink a
+{
+    color: #83C6FF;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+/*Cambia el color de los hipervinculos de ext cuando esta encima*/
+.customHiperlink a:hover
+{
+    color: #3EA5FF;
+}
+/*Label de bienvenido*/
+.xCustomEncabezadoLogin .x-form-item-label
+{
+    color: #D0EAFF !important;
+    font-size: 23px !important;
+}
+

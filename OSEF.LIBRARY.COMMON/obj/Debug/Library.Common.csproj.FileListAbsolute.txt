@@ -1,0 +1,8 @@
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Library.Common\bin\Debug\Library.Common.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Library.Common\bin\Debug\Library.Common.pdb
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Library.Common\obj\Debug\Library.Common.dll
+Y:\Dropbox\OSEF\Xpertex\Bancomer\Library.Common\obj\Debug\Library.Common.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Library.Common\bin\Debug\Library.Common.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Library.Common\bin\Debug\Library.Common.pdb
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Library.Common\obj\Debug\Library.Common.dll
+Y:\Dropbox\OSEF\XPERTEX\Bancomer con Christian\Library.Common\obj\Debug\Library.Common.pdb

@@ -1,0 +1,64 @@
+﻿/*Botones Grises de Forma Galeria y formaAccesos Menu*/
+.x-btn-default-toolbar-small .x-btn-inner
+{
+    font-size: 12px;
+    font-family: "WeblySleek UI Semilight" !important; 
+    color: #666 !important;
+}
+
+.x-btn-default-toolbar-small-icon-text-left .x-btn-inner
+{
+    line-height: 16px;
+    padding-left: 21px;
+}
+
+.x-btn-default-toolbar-small
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #f5f5f5;
+}
+
+.x-btn-default-toolbar-small-over
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    padding: 3px 3px 3px 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: none;
+    background-color: #BDBBBB;
+}
+
+/*Flechas para Accesos Menu SelectList*/
+.x-btnCustomDefault .x-btn-default-small
+{
+    border: none;
+    border-radius: 0px !important;
+    border-color: transparent;
+    background-image: none !important;
+    background-color: #EBE9E9 !important;
+}
+
+.x-btnCustomDefaultOver .x-btn-default-small-over
+{
+    background-image: none !important;
+    background-color: #CCCCCC !important;
+}
+
+/*Fuente para boton Examinar*/
+.x-btn-default-small .x-btn-inner {
+font-size: 13px;
+font-weight: normal;
+color: white;
+}

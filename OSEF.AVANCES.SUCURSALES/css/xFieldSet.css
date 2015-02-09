@@ -1,0 +1,8 @@
+﻿/*Tipo Letra FieldSet*/
+.x-fieldset-header-text
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 12px;
+    color: black;
+    padding: 1px 0;
+}

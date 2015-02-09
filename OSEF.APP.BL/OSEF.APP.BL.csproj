@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E5DD4578-3E77-4F15-AD1F-9C4803E26DC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OSEF.APP.BL</RootNamespace>
+    <AssemblyName>OSEF.APP.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArticuloBusiness.cs" />
+    <Compile Include="CategoriaBusiness.cs" />
+    <Compile Include="ConceptoBusiness.cs" />
+    <Compile Include="CuentaContableBusiness.cs" />
+    <Compile Include="EstadoBusiness.cs" />
+    <Compile Include="FinalidadBusiness.cs" />
+    <Compile Include="GrupoMenuBusiness.cs" />
+    <Compile Include="MenuBusiness.cs" />
+    <Compile Include="MunicipioBusiness.cs" />
+    <Compile Include="ProfesionBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveedorBusiness.cs" />
+    <Compile Include="RevisionBusiness.cs" />
+    <Compile Include="RevisionDBusiness.cs" />
+    <Compile Include="SubcategoriaBusiness.cs" />
+    <Compile Include="SucursalBusiness.cs" />
+    <Compile Include="UsuarioBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OSEF.APP.DL\OSEF.APP.DL.csproj">
+      <Project>{7F1F784A-AD4F-4323-854E-ECB4E3DC5538}</Project>
+      <Name>OSEF.APP.DL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSEF.APP.EL\OSEF.APP.EL.csproj">
+      <Project>{5CEA3018-16E7-4376-A5AD-0783411437DE}</Project>
+      <Name>OSEF.APP.EL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,42 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Tab panel*/
+.xchris .x-tab-default .x-tab-inner
+{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: "WeblySleek UI Semilight" !important; 
+    color: white;
+    line-height: 16px;
+}
+
+
+.custotabpanel .x-tab-default-top
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/*Para el color de la linea de los tab panel, se usa para Caja*/
+/*
+.x-tab-bar-strip-default
+{
+    border-style: solid;
+    border-color: #721d46;
+    background-color: #721d46;
+}
+*/

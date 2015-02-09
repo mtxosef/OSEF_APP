@@ -1,0 +1,47 @@
+﻿@font-face
+{
+    font-family: "WeblySleek UI Semilight";
+    src: url("../fonts/weblysleekuisl.ttf");
+}
+/*Popups*/
+
+/*Windows*/
+.x-window-default
+{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px !important;
+}
+
+
+.x-window-header-text-container-default
+{
+    color: white;
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 12.5px;
+    font-weight:normal;
+}
+
+.x-form-display-field
+{
+    font-family: "WeblySleek UI Semilight" !important; 
+    font-size: 13px;
+}
+/*Estas propiedades son para el mensaje emergente que se lanza cuando se elimina algun registro del tablero*/
+.deletePop
+{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+/*Esta linea es para que las notificaciones emergentes no salgan por detras del tablero*/
+.x-docked
+{
+    z-index: 0;
+}
